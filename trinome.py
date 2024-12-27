@@ -33,7 +33,7 @@ def plot_trinome(a, b, c):
     plt.figure(figsize=(8, 6))
     plt.plot(x, y, label=f'{a}x^2 + {b}x + {c}')
     
-    # Calculate roots !!!?!
+    # Calculate roots 
     delta = b**2 - 4*a*c
     if delta >= 0:
         x1 = (-b - np.sqrt(delta)) / (2*a)
